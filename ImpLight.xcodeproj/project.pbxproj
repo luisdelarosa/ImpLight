@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F31E0A4719A83D3500D56C97 /* AFTextResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F31E0A4619A83D3500D56C97 /* AFTextResponseSerializer.m */; };
+		F31F289219A8196000E5FE83 /* AFNetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F289119A8196000E5FE83 /* AFNetworkingClient.swift */; };
+		F3C284FE19A818460032DF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C284FD19A818460032DF95 /* AppDelegate.swift */; };
+		F3C2850019A818460032DF95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C284FF19A818460032DF95 /* ViewController.swift */; };
+		F3C2850319A818460032DF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C2850119A818460032DF95 /* Main.storyboard */; };
+		F3C2850519A818460032DF95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C2850419A818460032DF95 /* Images.xcassets */; };
+		F3C2851119A818460032DF95 /* ImpLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C2851019A818460032DF95 /* ImpLightTests.swift */; };
+		FB84B819F85E40689C47A196 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 722BB23E916C4BB0A3364DBB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3C2850B19A818460032DF95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C284F019A818460032DF95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C284F719A818460032DF95;
+			remoteInfo = ImpLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		179E3ED786F147E7AD9C1C1E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		722BB23E916C4BB0A3364DBB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31E0A4519A83D3500D56C97 /* AFTextResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTextResponseSerializer.h; sourceTree = "<group>"; };
+		F31E0A4619A83D3500D56C97 /* AFTextResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTextResponseSerializer.m; sourceTree = "<group>"; };
+		F31F289119A8196000E5FE83 /* AFNetworkingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFNetworkingClient.swift; sourceTree = "<group>"; };
+		F31F289319A8198E00E5FE83 /* ImpLight-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImpLight-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3C284F819A818460032DF95 /* ImpLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C284FC19A818460032DF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C284FD19A818460032DF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3C284FF19A818460032DF95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3C2850219A818460032DF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3C2850419A818460032DF95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3C2850A19A818460032DF95 /* ImpLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C2850F19A818460032DF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C2851019A818460032DF95 /* ImpLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpLightTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3C284F519A818460032DF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB84B819F85E40689C47A196 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C2850719A818460032DF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96051C888854454DB8464CEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				722BB23E916C4BB0A3364DBB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3C284EF19A818460032DF95 = {
+			isa = PBXGroup;
+			children = (
+				F3C284FA19A818460032DF95 /* ImpLight */,
+				F3C2850D19A818460032DF95 /* ImpLightTests */,
+				F3C284F919A818460032DF95 /* Products */,
+				179E3ED786F147E7AD9C1C1E /* Pods.xcconfig */,
+				96051C888854454DB8464CEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3C284F919A818460032DF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3C284F819A818460032DF95 /* ImpLight.app */,
+				F3C2850A19A818460032DF95 /* ImpLightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3C284FA19A818460032DF95 /* ImpLight */ = {
+			isa = PBXGroup;
+			children = (
+				F3C284FD19A818460032DF95 /* AppDelegate.swift */,
+				F3C284FF19A818460032DF95 /* ViewController.swift */,
+				F3C2850119A818460032DF95 /* Main.storyboard */,
+				F31F289119A8196000E5FE83 /* AFNetworkingClient.swift */,
+				F3C2850419A818460032DF95 /* Images.xcassets */,
+				F3C284FB19A818460032DF95 /* Supporting Files */,
+				F31F289319A8198E00E5FE83 /* ImpLight-Bridging-Header.h */,
+				F31E0A4519A83D3500D56C97 /* AFTextResponseSerializer.h */,
+				F31E0A4619A83D3500D56C97 /* AFTextResponseSerializer.m */,
+			);
+			path = ImpLight;
+			sourceTree = "<group>";
+		};
+		F3C284FB19A818460032DF95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3C284FC19A818460032DF95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3C2850D19A818460032DF95 /* ImpLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3C2851019A818460032DF95 /* ImpLightTests.swift */,
+				F3C2850E19A818460032DF95 /* Supporting Files */,
+			);
+			path = ImpLightTests;
+			sourceTree = "<group>";
+		};
+		F3C2850E19A818460032DF95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3C2850F19A818460032DF95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3C284F719A818460032DF95 /* ImpLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C2851419A818460032DF95 /* Build configuration list for PBXNativeTarget "ImpLight" */;
+			buildPhases = (
+				80F5584470A74C27B9F3C8F5 /* Check Pods Manifest.lock */,
+				F3C284F419A818460032DF95 /* Sources */,
+				F3C284F519A818460032DF95 /* Frameworks */,
+				F3C284F619A818460032DF95 /* Resources */,
+				0F639BB917844CC8A7A583CA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImpLight;
+			productName = ImpLight;
+			productReference = F3C284F819A818460032DF95 /* ImpLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3C2850919A818460032DF95 /* ImpLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C2851719A818460032DF95 /* Build configuration list for PBXNativeTarget "ImpLightTests" */;
+			buildPhases = (
+				F3C2850619A818460032DF95 /* Sources */,
+				F3C2850719A818460032DF95 /* Frameworks */,
+				F3C2850819A818460032DF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C2850C19A818460032DF95 /* PBXTargetDependency */,
+			);
+			name = ImpLightTests;
+			productName = ImpLightTests;
+			productReference = F3C2850A19A818460032DF95 /* ImpLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3C284F019A818460032DF95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iOSDevCamp;
+				TargetAttributes = {
+					F3C284F719A818460032DF95 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F3C2850919A818460032DF95 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F3C284F719A818460032DF95;
+					};
+				};
+			};
+			buildConfigurationList = F3C284F319A818460032DF95 /* Build configuration list for PBXProject "ImpLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3C284EF19A818460032DF95;
+			productRefGroup = F3C284F919A818460032DF95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3C284F719A818460032DF95 /* ImpLight */,
+				F3C2850919A818460032DF95 /* ImpLightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3C284F619A818460032DF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C2850319A818460032DF95 /* Main.storyboard in Resources */,
+				F3C2850519A818460032DF95 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C2850819A818460032DF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F639BB917844CC8A7A583CA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80F5584470A74C27B9F3C8F5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3C284F419A818460032DF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C2850019A818460032DF95 /* ViewController.swift in Sources */,
+				F31F289219A8196000E5FE83 /* AFNetworkingClient.swift in Sources */,
+				F31E0A4719A83D3500D56C97 /* AFTextResponseSerializer.m in Sources */,
+				F3C284FE19A818460032DF95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C2850619A818460032DF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C2851119A818460032DF95 /* ImpLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3C2850C19A818460032DF95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3C284F719A818460032DF95 /* ImpLight */;
+			targetProxy = F3C2850B19A818460032DF95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3C2850119A818460032DF95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C2850219A818460032DF95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3C2851219A818460032DF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3C2851319A818460032DF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3C2851519A818460032DF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179E3ED786F147E7AD9C1C1E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ImpLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImpLight/ImpLight-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3C2851619A818460032DF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179E3ED786F147E7AD9C1C1E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ImpLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImpLight/ImpLight-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F3C2851819A818460032DF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImpLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImpLight.app/ImpLight";
+			};
+			name = Debug;
+		};
+		F3C2851919A818460032DF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImpLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImpLight.app/ImpLight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3C284F319A818460032DF95 /* Build configuration list for PBXProject "ImpLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C2851219A818460032DF95 /* Debug */,
+				F3C2851319A818460032DF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C2851419A818460032DF95 /* Build configuration list for PBXNativeTarget "ImpLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C2851519A818460032DF95 /* Debug */,
+				F3C2851619A818460032DF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C2851719A818460032DF95 /* Build configuration list for PBXNativeTarget "ImpLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C2851819A818460032DF95 /* Debug */,
+				F3C2851919A818460032DF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3C284F019A818460032DF95 /* Project object */;
+}
