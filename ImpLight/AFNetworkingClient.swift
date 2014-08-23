@@ -9,6 +9,12 @@
 import UIKit
 
 class AFNetworkingClient: NSObject {
+    
+    // Set this to your agent ID
+    let agentId = "qnEfEUX85B7J"
+    
+    // This is how long to let the LED be lit up
+    let ledTimeout = 10
 
     // variables
     var httpRequestOperationManager: AFHTTPRequestOperationManager
@@ -18,15 +24,12 @@ class AFNetworkingClient: NSObject {
         httpRequestOperationManager = AFHTTPRequestOperationManager()
         // Electric Imp agent returns text/plain
         httpRequestOperationManager.responseSerializer = AFTextResponseSerializer()
-        // TODO add a plain/text serializer
-//        httpRequestOperationManager.responseSerializer.acceptableContentTypes = NSSet(object: "text/plain")
     }
 
     // Issue an HTTP GET to the Electric Imp agent
     func sendHttpRequestToElectricImp(#color: String) {
         // translate to RGB hex value
-//        "https://agent.electricimp.com/qnEfEUX85B7J?led=0&rgb=%23aa7942&timer=10&user=",
-        let url = "https://agent.electricimp.com/qnEfEUX85B7J?led=0&rgb=%23\(color)&timer=10&user="
+        let url = "https://agent.electricimp.com/\(agentId)?led=0&rgb=%23\(color)&timer=\(ledTimeout)&user="
         println("url:\(url)")
         httpRequestOperationManager.GET(
             url,
@@ -38,6 +41,5 @@ class AFNetworkingClient: NSObject {
                 println("Error: " + error.localizedDescription)
         })
     }
-
 
 }
