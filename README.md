@@ -5,6 +5,8 @@ Swift demo app to control an Electric Imp to change a LED
 
 We presented this at iOSDevCamp 2014. Our team was Jimmy (@jsambuo), Natasha (@natashatherobot), Katie, and me (@louielouie). We all work for Capital One and we like soldering and making things.
 
+Important: Open ImpLight.xcworkspace and not the xcodeproj. We have checked in the CocoaPods that we use and it utilizes the workspace.
+
 Requirements:
 * Xcode 6 Beta 5
 * Electric Imp
